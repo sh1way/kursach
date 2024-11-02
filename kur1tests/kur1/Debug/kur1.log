@@ -1,0 +1,40 @@
+﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(531,5): warning MSB8028: промежуточный каталог (Debug\) содержит файлы, которые используются совместно с другим проектом (kur1.vcxproj).  Это может привести к ошибкам очистки и перестроения.
+  constant.cpp
+  main.cpp
+D:\kursach\kur1tests\kur1\main.cpp(26,58): warning C4244: аргумент: преобразование "int" в "T", возможна потеря данных
+          with
+          [
+              T=float
+          ]
+D:\kursach\kur1tests\kur1\main.cpp(26,43): warning C4244: аргумент: преобразование "int" в "T", возможна потеря данных
+          with
+          [
+              T=float
+          ]
+D:\kursach\kur1tests\kur1\main.cpp(66,107): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+D:\kursach\kur1tests\kur1\main.cpp(71,97): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+D:\kursach\kur1tests\kur1\main.cpp(75,45): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+D:\kursach\kur1tests\kur1\main.cpp(84,28): warning C4305: инициализация: усечение из "double" в "float"
+  functions.cpp
+D:\kursach\kur1tests\kur1\functions.cpp(101,17): warning C4305: =: усечение из "double" в "float"
+D:\kursach\kur1tests\kur1\functions.cpp(212,48): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+D:\kursach\kur1tests\kur1\functions.cpp(212,33): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+D:\kursach\kur1tests\kur1\functions.cpp(220,58): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+D:\kursach\kur1tests\kur1\functions.cpp(220,38): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+D:\kursach\kur1tests\kur1\functions.cpp(225,94): warning C4244: аргумент: преобразование "int" в "T", возможна потеря данных
+          with
+          [
+              T=float
+          ]
+D:\kursach\kur1tests\kur1\functions.cpp(225,87): warning C4244: аргумент: преобразование "int" в "T", возможна потеря данных
+          with
+          [
+              T=float
+          ]
+D:\kursach\kur1tests\kur1\functions.cpp(232,117): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+D:\kursach\kur1tests\kur1\functions.cpp(238,121): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+D:\kursach\kur1tests\kur1\functions.cpp(245,54): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+D:\kursach\kur1tests\kur1\functions.cpp(252,57): warning C4244: аргумент: преобразование "int" в "float", возможна потеря данных
+  Создание кода...
+constant.obj : warning LNK4075: не учитывается "/EDITANDCONTINUE" из-за спецификации "/INCREMENTAL:NO"
+  kur1.vcxproj -> D:\kursach\kur1tests\Debug\Tetris.exe
